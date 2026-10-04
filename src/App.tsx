@@ -14,7 +14,14 @@ function App() {
           onClick={() => setContador(contador + 1)}
           style={{ padding: '0.5rem 1rem', cursor: 'pointer' }}
         >
-          Incrementar
+          Mais +
+        </button>
+
+        <button
+          onClick={() => setContador(contador - 1)}
+          style={{ padding: '0.5rem 1rem', cursor: 'pointer' }}
+        >
+          Menos -
         </button>
       </div>
     </div>
